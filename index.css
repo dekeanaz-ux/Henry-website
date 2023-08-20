@@ -455,8 +455,7 @@ display: block;
     background: #ff004f;
     position: absolute;
     top: 0;
-    right: -200px;
-    width: 200px;
+    
     height: 400px;
     padding-top: 50px;
     z-index: 2;
