@@ -75,7 +75,7 @@ transform: translateX(-50%);
   flex-wrap: wrap;
   width: 100%;
   
- /*background-image: url(/ombui.html/images/mypic3.jpg);*/
+ /*background-image: url(images/mypic3.jpg);*/
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
