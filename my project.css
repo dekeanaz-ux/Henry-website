@@ -193,9 +193,7 @@ body{
 }
 .contact-me h1{
   font-size: 1.9rem;
-  
-  
-  
+    
 }
 .contact-me button{
   background: transparent;
@@ -244,5 +242,9 @@ body{
   margin: 0px 0px;
   padding: 20px 20px;
   }
+   .contact-me h1{
+     font-size: 1rem;
+   }
  }
+ 
   
