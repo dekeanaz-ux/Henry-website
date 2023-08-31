@@ -545,7 +545,7 @@ display: block;
 position: fixed;
 z-index: 9999;
 background-color: red;
-background: url("/ombui.html/images/bars-solid.svg");
+background: url("/images/bars-solid.svg");
 background-repeat: no-repeat;
 border: 3rem;
 border-color: white;
@@ -555,7 +555,7 @@ top: 2rem;
 right: 3rem;
  }
  .mobile-nav-toggle[arai-expanded="true"] {
-  background: url("/ombui.html/images/x-solid.svg");
+  background: url("/images/x-solid.svg");
  }
  .sr-only{
   color: red;
