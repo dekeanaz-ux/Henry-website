@@ -544,7 +544,7 @@ display: block;
 display: block;
 position: fixed;
 z-index: 9999;
-background-color: red;
+background-color: white;
 background: url("images/bars-solid.svg");
 background-repeat: no-repeat;
 border: 3rem;
