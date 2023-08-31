@@ -118,6 +118,7 @@ animation: pulse 2s infinite, glow 3s alternate infinite;
 .flex{
   display: flex;
   gap: var(--gap, 1rem);
+ 
 }
 nav{
   display: flex;
@@ -128,7 +129,7 @@ nav{
 }
 .primary-header{
   align-content: center;
-  
+   position: fixed;
 }
 
 .mobile-nav-toggle{
@@ -549,10 +550,10 @@ background: url("images/icons8-menu.svg");
 background-repeat: no-repeat;
 border: 3rem;
 border-color: white;
-width: 3rem;
+width: 5rem;
 aspect-ratio: 1;
 top: 2rem;
-right: 3rem;
+right: 5rem;
  }
  .mobile-nav-toggle[arai-expanded="true"] {
   background: url("images/x-solid.svg");
