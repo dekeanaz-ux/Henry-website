@@ -14,10 +14,10 @@ html{
 body{
   background-color: #080808;
   color: #fff;
- 
 
 }
 /*-------------------------------------clock--------------------*/
+
 .welcome{
    
   color: #fff;
@@ -46,7 +46,7 @@ body{
 
 .clock span{
   font-size: 40px;
-  max-width: 100px;
+  width: 100px;
   display: inline-block;
   text-align: center;
   position: relative;
@@ -73,9 +73,9 @@ transform: translateX(-50%);
 #header{
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+ max-width: 100%;
   
- /*background-image: url(images/mypic3.jpg);*/
+ /*background-image: url(/ombui.html/images/mypic3.jpg);*/
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -93,6 +93,8 @@ font-weight: bold;
 color: white;
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 00.5);
 background: linear-gradient(45deg, black, #ff0000);
+
+
 box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 display: inline-block;
 animation: pulse 2s infinite, glow 3s alternate infinite;
@@ -118,7 +120,7 @@ animation: pulse 2s infinite, glow 3s alternate infinite;
 .flex{
   display: flex;
   gap: var(--gap, 1rem);
- 
+  
 }
 nav{
   display: flex;
@@ -129,7 +131,9 @@ nav{
 }
 .primary-header{
   align-content: center;
-   position: fixed;
+  position: fixed;
+  
+  
 }
 
 .mobile-nav-toggle{
@@ -169,18 +173,46 @@ nav ul li a{
  nav ul li a:hover::after{
  width: 100%;
  }
- .header-text{
-  margin-top: 20%;
+ .header-text{ 
   font-size: 30px;
+  margin-top: 200px;
  }
  .header-text h1{
   font-size: 60px;
-  margin-top: 20px;
+  margin-top: 60px;
  }
 .header-text span{
   font-family: 'pacifico';
   color: rgb(255, 0, 0);
 }
+.expertise{
+  margin-top: 5rem;
+  align-items: center;
+}
+.landing-footer{
+display: flex;
+flex-wrap: nowrap;
+box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.2);
+border-radius: 2rem; 
+gap: 2rem; 
+margin-bottom: 2rem;
+}
+.power-systems, .power-electronics, .renewable-energy{
+  border: solid;  
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;    
+  font-size: clamp(0.9rem, 4vw, 1rem);
+  padding: 0.2rem; 
+  background: hsla(0, 12%, 84%, 0.1);
+  backdrop-filter: brul(2rem); 
+  
+ }
+.landing-footer h3{
+  margin: 0;  
+  color: rgb(255, 0, 0);
+ }
+
+
 /*-------------about-------------*/
 #about{
   padding: 60px 0;
@@ -222,7 +254,7 @@ nav ul li a{
 .tab-links::after{
   content: '';
   width: 0;
-  height: 3px;
+  min-height: 3px;
   background: #ff004f;
   position: absolute;
   left: 0;
@@ -427,7 +459,7 @@ display: block;
  
  }
  form input, form textarea{
-  max-width: 100%;
+  width: 100%;
   border:0;
   outline: none;
   background: #262626;
@@ -440,7 +472,7 @@ display: block;
  form .btn2{
   padding: 14px 60px;
   font-size: 18px;
-  margin-top: 20px;
+  margin-top: 50px;
   cursor: pointer;
   background-color: none;
   color: orangered;
@@ -449,30 +481,35 @@ display: block;
  .contact-me{
    
   margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.footer-contact{
   text-align: center;
 }
-.contact-me small{
+.footer-1{
+  border: solid;  
+  box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;    
+  font-size: clamp(0.9rem, 4vw, 1rem);
+  padding: 0.2rem; 
+  background: hsla(0, 12%, 84%, 0.1);
+  backdrop-filter: brul(2rem); 
+  
+}
+.footer-contact small{
   font-weight: 400px;
   font-family: Lucida calligraphy;
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #4a4a4a;  
   
 }
-.contact-me h1{
+.footer-contact h1{
   font-size: 1.9rem;
   
-  
-  
 }
-.contact-me button{
-  background: transparent;
-  padding: 0rem 1rem;
-  border-radius: 4px;
-  font-weight: 500;
-  text-transform: uppercase;
-  border: 1px solid #ccc;
-  color: #4a4a4a;
-}
+
 .social-icons{
   margin: 2rem 0rem;
   display: flex;
@@ -483,12 +520,11 @@ display: block;
   font-size: 1.8rem;
   color: #ccc;
   margin: 0rem 1.5rem;
+  
 }
-.mobile{
-  margin: 2rem 0rem;
-}
+
 .copyright{
- margin-bottom: 20rem;
+ margin-bottom: 2rem;
  text-align: center;
  color: #ccc;
  font-size: 1.2rem;
@@ -499,7 +535,7 @@ display: block;
  }
 
  /*---------------------------css for small screens------------*/
- @media only screen and (max-width: 800px){
+ @media only screen and (max-width: 1000px){
 
   .welcome{
     display: none;
@@ -513,10 +549,11 @@ display: block;
   padding-top: 100px;
   line-height: 40px;
  }
+
  .logo{
   margin: 0px;
-  
  }
+ 
  .primary-navigation{
   --gap: 1em;
   position: fixed;
@@ -545,21 +582,20 @@ display: block;
 display: block;
 position: fixed;
 z-index: 9999;
-background-color: white;
-background-image: url("images/bars-solid.svg");
+background-color: rgb(223, 205, 205);
+background-image: url("/ombui.html/images/bars-solid\ \(1\).svg");
 background-repeat: no-repeat;
 border: 1rem;
+border-radius: 1rem;
 width: 3.5rem;
 aspect-ratio: 1;
 top: 0.5rem;
 right: 2rem;
  }
- .mobile-nav-toggle[arai-expanded="true"] {
-  background-image: url("images/x-solid.svg");
+ .mobile-nav-toggle[arai-expanded="true"]{
+  background-image: url("/ombui.html/images/");
  }
- .sr-only{
-  color: red;
- }
+
   .sub-title{
     font-size: 40px;
   }
@@ -597,16 +633,30 @@ body{
   padding: 10px 10px;
   font-family: roboto; 
   
+  
+  
 }
 *{
   margin: 0px;
   padding: 0px;
- 
+  
 }
-.contact-me h1{
+.contact-me{
+  display: block;
+  background-color: rgb(87, 85, 88);
+  
+}
+.footer-contact h1{
     font-size: 20px;
     margin: 0px;
+    
 }
+  }
+  @media only screen and (max-width: 900px){
+  .landing-footer{
+    display: block;
+  }
+  
   }
 
 
