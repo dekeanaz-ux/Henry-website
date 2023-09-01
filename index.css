@@ -583,7 +583,7 @@ display: block;
 position: fixed;
 z-index: 9999;
 background-color: rgb(223, 205, 205);
-background-image: url("/ombui.html/images/bars-solid\ \(1\).svg");
+background-image: url("images/bars-solid\ \(1\).svg");
 background-repeat: no-repeat;
 border: 1rem;
 border-radius: 1rem;
@@ -593,7 +593,7 @@ top: 0.5rem;
 right: 2rem;
  }
  .mobile-nav-toggle[arai-expanded="true"]{
-  background-image: url("/ombui.html/images/");
+  background-image: url("images/");
  }
 
   .sub-title{
