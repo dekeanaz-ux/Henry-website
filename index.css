@@ -583,7 +583,7 @@ display: block;
 position: fixed;
 z-index: 9999;
 background-color: rgb(223, 205, 205);
-background-image: url("images/bars-solid\ \(1\).svg");
+background-image: url("images/bars-solid).svg");
 background-repeat: no-repeat;
 border: 1rem;
 border-radius: 1rem;
